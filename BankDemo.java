@@ -18,7 +18,7 @@ class BankAccount{
   }
 
   public void setBalance(int balance){
-    if (this.balance > 0){
+    if (balance > 0){
      this.balance = balance;
       }
     
@@ -53,7 +53,7 @@ public class BankDemo {
   person1.getBalance();
 
   person1.displayDetails();
-  System.out.println("name is: "+ person1.getName() +" balance is: $"+ person1.getBalance());
+
   }
 }
 
